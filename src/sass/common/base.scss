@@ -4,3 +4,48 @@ html, body {
 	font-weight: 300;
 	height: 100%;
 }
+header {
+	background:#000;
+	height:800px;
+	color:#fff;
+	.frame {
+		padding-top: 45px;
+		ul {
+			text-align: right;
+			li{
+				display:inline-block;
+				margin-left: 45px;
+				a{
+					color:#fff;
+					text-decoration: none;
+					font: 25px "Voltaire";
+				}
+			}
+		}
+		.title{
+			margin-top: -30px;
+			h1{
+				font: 80px "Voltaire";
+				text-transform: uppercase;
+				margin-top: 25px;
+			}
+			h2{
+				font: 30px "Benton Sans";
+				margin-top: 5px;
+
+			}
+		}
+		.description{
+			text-align: right;
+			margin-top: 70px;
+			p{
+				display:inline-block;
+				width: 285px;
+				margin-left: 70px;
+				text-align: left;
+				font: 15px "Benton Sans";
+				line-height: 22px;
+			}
+		}
+	}
+}
