@@ -24,6 +24,9 @@ header {
 		}
 		.title{
 			margin-top: -30px;
+			img {
+				border:1px solid red;
+			}
 			h1{
 				font: 80px "Voltaire";
 				text-transform: uppercase;
