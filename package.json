@@ -1,0 +1,27 @@
+{
+  "name": "mintsugar-first-website",
+  "version": "0.0.0",
+  "description": "Mint Sugar's first website",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MintSugar/first-website.git"
+  },
+  "author": "Mint Sugar",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/MintSugar/first-website/issues"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-copy": "~0.4.1",
+    "grunt-contrib-sass": "~0.4.1",
+    "grunt-contrib-watch": "~0.5.1",
+    "grunt-replace": "~0.4.4"
+  }
+}
