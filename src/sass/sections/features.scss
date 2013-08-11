@@ -1,0 +1,40 @@
+.features{
+	background: #aaa;
+	padding-top: 100px;
+	padding-bottom:70px;
+	.feature{
+		background: white;
+		padding: 20px;
+		margin:0 20px 0 20px;
+		div{
+			background: black;
+			height: 200px;
+			margin-bottom: 20px;
+			&.research{
+				background: url(../img/feature-research.png) no-repeat center center black;
+			}
+			&.design{
+				background: url(../img/feature-design.png) no-repeat center center black;
+			}
+			&.develop{
+				background: url(../img/feature-develop.png) no-repeat center center black;
+			}
+			&.deploy{
+				background: url(../img/feature-deploy.png) no-repeat center center black;
+			}
+		}
+		h3{
+			color: $green;
+			font: 27px "Voltaire";
+			text-align: center;
+			margin-bottom: 15px;
+
+		}
+		p{
+			color: $black;
+			font: 18px "Benton Sans";
+			text-align: justify;
+
+		}
+	}
+}
