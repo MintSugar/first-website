@@ -1,0 +1,15 @@
+.wall{
+	background: black;
+	height: 1193px;
+	.frame{
+		position: relative;
+		.box{
+			margin-top: 10px;
+			height: 330px;
+			width: 570px;
+			position: absolute;
+			background-size: cover;
+
+		}
+	}
+}
